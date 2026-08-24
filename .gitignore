@@ -1,0 +1,30 @@
+# OS & Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Laravel Application
+application/node_modules/
+application/vendor/
+application/public/storage
+application/public/build
+application/public/hot
+application/storage/*.key
+application/storage/pail
+application/bootstrap/ssr
+application/.env
+application/.env.backup
+application/.env.production
+application/npm-debug.log
+application/yarn-error.log
+
+# Machine Learning
+machine-learning/__pycache__/
+machine-learning/*.pyc
+machine-learning/.venv/
+machine-learning/venv/
+machine-learning/env/
+machine-learning/.ipynb_checkpoints/
